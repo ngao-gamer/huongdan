@@ -1,0 +1,210 @@
+loadstring(game:HttpGet(("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "vietnamese hub",
+         Animation = "new script"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=83428374653423",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script blox fruit"})
+     local Tab2o = MakeTab({Name = "Script steal a brainrot"})
+     local Tab3o = MakeTab({Name = "script fisch"})
+     local Tab4o = MakeTab({Name = "script Dead rails"})
+     local Tab5o = MakeTab({Name = "script grow a garden"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "tsou Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "speed hub x",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "aurora Hub(get key)",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora", true))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "astral Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "banana Hub free",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "maru Hub free",
+    Callback = function()
+	  getgenv().Team = "Marines"
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "TxZ Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DrTxZ/Mercure-Hub/refs/heads/main/Mercure%20Hub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "blue x Hub(auto find fruit)",
+    Callback = function()
+	  getgenv().Config = {
+    ["Misc"] = {
+        ["RandomFruits"] = true,
+        ["BlackScreen"] = false,
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/FindFruits.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "blue x Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "billdev Hub(get key)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/selciawashere/screepts/refs/heads/main/BFKEYSYS",true))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Quantum Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "anti cheat 1",
+    Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/yJ0CXsKr/raw"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "anti cheat 2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Mjajas/ANTII/refs/heads/main/antikick.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "adjjj Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/onliengamerop/Steal-a-brainrot/refs/heads/main/Protected_3771863424757750.lua.txt"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Arbix Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/Instant%20Steal%20V2.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = " recommend use delta",
+    Callback = function()
+	  
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "nat Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "speed Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  
+  AddButton(Tab4o, {
+     Name = "null fire Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "auto bond",
+    Callback = function()
+	  Auto_Execute = true loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/HungHub/main/loader.lua'))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "no lag Hub",
+    Callback = function()
+	  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "nat Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "speed hub x Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
